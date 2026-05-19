@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Póliza Seguro</title>
+
+    <link rel="stylesheet" href="../styles/estilos.css">
+</head>
+
+<body>
+
+    <div class="contenedor">
+
+        <h1>PÓLIZA DE SEGURO</h1>
+
+        <label>Tipo de póliza (A/B):</label>
+        <input type="text" id="tipo"><br>
+
+        <label>¿Consume alcohol? (si/no):</label>
+        <input type="text" id="alcohol"><br>
+
+        <label>¿Usa lentes? (si/no):</label>
+        <input type="text" id="lentes"><br>
+
+        <label>¿Tiene enfermedad? (si/no):</label>
+        <input type="text" id="enfermedad"><br>
+
+        <label>Edad:</label>
+        <input type="text" id="edad"><br>
+
+        <button onclick="calcularPoliza()">
+            Calcular
+        </button>
+
+        <p id="resultado"></p>
+
+        <div class="linea-inicio">
+
+            <span></span>
+
+            <a href="../index.html">🏠</a>
+
+            <span></span>
+
+        </div>
+
+    </div>
+
+    <script src="../scripts/problema9.js"></script>
+
+</body>
+</html>
